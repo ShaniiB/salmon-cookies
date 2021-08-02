@@ -1,0 +1,115 @@
+
+.hook {
+    position: absolute;
+    top: 160px;
+    left: 5px;
+    z-index: 2;
+    background-size: 140px 210px;
+    width: 700px;
+    height:100px;
+    opacity: .90;
+    animation: hook 5s ease-in alternate infinite;
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);   
+ }
+
+ .hook:hover {
+    position: absolute;
+    top:160px;
+    z-index: 2;
+    animation: hook 5s ease-in-out alternate infinite;
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);   
+ }
+
+ @keyframes hook{
+    from {
+        transform: translateY(0px);
+        transform: translateX(515px);
+        animation: hook 4ms ease-in alternate infinite; 
+    }
+    to { 
+
+        transform: translateY(50px);
+        animation: hook 4ms ease-in-out alternate infinite; 
+        transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);     
+    }
+}
+
+
+.calsalmon {
+    position: absolute;
+    top: 80px;
+    left: 290px;
+    z-index: -2;
+    background-image: url("images/fish2.png");
+    background-repeat: no-repeat;
+    background-size: 600px 350px;
+    width: 600px;
+    height:350px;
+    animation: calsalmon 3s ease alternate infinite;
+}
+
+@keyframes calsalmon{
+    from {
+        top: 90px;
+        transform: translateY(45px);
+        transform: translateX(35px);
+        animation: calsalmon 3s ease alternate infinite;   
+        opacity: .90;
+    }
+    to { 
+        top: 80px;
+        transform: translateY(40px);
+        transform: translateX(0px);
+        animation: calsalmon 3s ease alternate infinite;     
+    }
+}
+
+
+.imageone {
+    position: absolute;
+    top:  5px;
+    left: 10px;
+    z-index: 5;
+    background-image: url("images/baker3.jpg");
+    background-repeat: no-repeat;
+    background-size: 560px 400px;
+    width: 560px;
+    height: 400px;
+    border-radius: 3%;
+    animation-name: imageone;
+    animation-timing-function: ease;
+    animation-duration: 6s;
+    animation-delay: 4s;
+}
+
+@keyframes imageone {
+    from {
+        background-image: url("images/baker1.jpg");
+        background-repeat: no-repeat;
+        background-size: 560px 400px;
+        width: 560px;
+        height: 400px;
+        animation-name: imageone;
+        animation-timing-function: ease-in;
+        animation-duration: 6s;
+        animation-delay: 4s;
+       
+    }
+    to { 
+        background-image: url("images/baker2.jpg");
+        background-repeat: no-repeat;
+        background-size: 560px 400px;
+        width: 560px;
+        height: 400px;
+        animation-name: imageone;
+        animation-timing-function: ease-in-out;
+        animation-duration: 6s;
+        animation-delay: 2s;
+        animation-iteration-count: 3;
+        animation-fill-mode: none;
+         
+    }
+}

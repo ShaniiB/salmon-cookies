@@ -1,0 +1,251 @@
+body {
+    background: rgb(51,172,132);
+    background: linear-gradient(0deg, rgba(51,172,132,1) 30%, rgba(67,145,147,1) 100%);
+    height: 800px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+ul {
+ display: hidden;
+ 
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+  width: 120px;   
+}
+
+table {
+ position: absolute;
+ top: -30px;
+ font-size: 13px;
+ padding: 5px;
+ border-radius: 5%;
+}
+
+tr {
+ padding:2px;
+}
+
+th {
+ padding: 8px -0px 4px -6px;
+ font-size: 14px;  
+}
+
+td {
+ padding :4px;
+ margin-left: 40px;
+ border: rgba(85, 173, 114, 0.377) 2px solid ;
+ border-radius: 7%;
+
+}
+
+
+
+
+ a.menu:link {
+   background-color: #439193 ;
+   font:rgb(219, 241, 90);
+   font-size:30px;
+   font-variant: small-caps;
+   text-decoration: none;
+   text-indent: -1px;
+   padding: 10px;
+}
+
+a.menu:visited {
+    font:rgb(219, 241, 90);
+    text-decoration: none;
+    text-indent: -1px;
+}
+
+a.menu:hover {
+    font:rgb(219, 241, 90);
+    text-decoration: none;
+    text-indent: -1px;
+}
+
+
+a.menu:active {
+  font:rgb(219, 241, 90);
+  text-decoration: none;
+  text-indent: -1px;
+}
+
+a {
+    font: #000;
+ }
+ 
+ a:link{
+   font:#000;
+ }
+ 
+ a:hover {
+     font:#000;
+ }
+ 
+ a:active{
+     font: #000;
+ }
+ 
+ a.homemenu {
+    font:rgba(255, 253, 139, 0.533);
+    font-size: 60px;
+    text-decoration: none;
+    padding:  15px;
+ }
+ 
+ a.homemenu:hover {
+     font:#dbcea1;
+     text-decoration: none;
+     transition: ease-in-out 0.3ms;
+  }
+ 
+
+
+#navigation {
+    position: absolute;
+    left:200px;
+    width: 100%;
+    height: 80px;
+ }
+
+#innernav {
+    position: absolute;
+    top: 0px;
+    left: 450px;
+ }
+
+
+
+/********  BEGIN THE FRONT ( WELCOME ) PAGE PORTION OF THE CODE 
+ ---- Most of these divs are self explanitory , please pay no mind ----
+                                                                   ********/
+
+
+
+                                                                   
+                                                                   
+#littlenav {
+ position: absolute;
+   width: 100%;
+ height: 80px;
+ } 
+ #companytitle {
+    position: absolute;
+    top: 135px;
+    left: 475px;
+    z-index: 4;
+    color: #c9c69a;
+    width: 440px;
+    font-size: 50px;
+    text-shadow: 2px 1px 2px rgb(25, 94, 64);
+
+}
+
+#companysubheader {
+    position: absolute;
+    top: 183px;
+    left: 670px;
+    z-index: 4;
+    color: #dbd8a3;
+    font-size: 25px;
+    text-shadow: 2px 1px 2px rgb(25, 94, 64);
+}
+
+
+#welcomepanel {
+    position: absolute;
+    top: 210px;
+    left: 340px;
+    z-index:-1;
+    background-color: bisque;
+    background-image: url("images/welcome.jpg");
+    background-repeat: no-repeat;
+    background-size: 900px 450px;
+    width: 900px;
+    height: 450px;
+    overflow:visible;
+    opacity: .80;
+    border-radius: 50px;
+    box-shadow:2px 3px 23px #66797383;
+}
+
+
+#salxmon {
+    position: absolute;
+    top: 185px;
+    left: -53px;
+    z-index: 3;
+    background-image: url("images/salmon.png");
+    background-repeat: no-repeat;
+    background-size: 700px 250px;
+    width: 700px;
+    height:250px;
+    transform: rotate(-30deg);
+    
+}
+
+#picircle {
+    position: absolute;
+    top: 100px;
+    left: 450px;
+    z-index: -1;
+    background-color: rgb(30, 136, 136);
+    width: 220px;
+    height:150px;
+    opacity: 70%;
+    border-radius: 50%;
+    
+}
+
+/********  END THE FRONT PAGE PORTION OF THE CODE  ********/
+
+/********  BEGIN THE ABOUT & SALES PORTION OF THE CODE 
+ ---- Most of these divs are self explanitory , please pay no mind ----
+                                                                   ********/
+
+
+
+
+
+#content {
+    position: absolute;
+    top: 90px;
+    left:50px;
+    z-index: -2;
+    background-color: #439193;
+    width: 1500px;
+    height: 650px;
+    opacity: 10%;
+    border-radius: 2%;
+    border: #3d8186 2px solid;
+    outline: rgb(51,172,132);
+}
+
+#aboutcontent {
+    position: absolute;
+    top: 100px;
+    left:50px;
+    z-index: -1;
+    overflow: visible;
+    width: 1500px;
+    height: 600px;
+    opacity: 100%;
+    padding: 5px 5px 5px 5px;
+}
+
+#salestable {
+   position:absolute;
+   top: 595px;
+   left: 530px;
+   background: rgb(245, 245, 245);
+   width:995px;
+   height:170px;
+   padding:2px;
+   border: #51be7577 6px solid;
+   border-radius: 30px;
+
+}
