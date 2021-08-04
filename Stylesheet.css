@@ -6,15 +6,35 @@ body {
     overflow: hidden;
 }
 
+.comptitle{
+    position: relative;
+    top: -70px;
+    left: -540px;
+    z-index: 6;
+    color: #c9c69a;
+    width: 440px;
+    font-size: 55px;
+    text-shadow: 2px 1px 2px rgb(25, 94, 64);
+}
+
+.compsubheader {
+    position: absolute;
+    top: 45px;
+    left: -390px;
+    z-index: 6;
+    color: #dbd8a3;
+    font-size: 28px;
+    text-shadow: 2px 1px 2px rgb(25, 94, 64);
+}
+
 ul {
- display: hidden;
- 
+ display: inline-block;
+ list-style: none;
 }
 
 li {
   display: inline-block;
-  padding: 10px;
-  width: 120px;   
+  padding: 0px 40px 0px 40px;   
 }
 
 table {
@@ -42,34 +62,30 @@ td {
 
 }
 
-
-
-
  a.menu:link {
    background-color: #439193 ;
-   font:rgb(219, 241, 90);
+   color:#c9c69a;
    font-size:30px;
    font-variant: small-caps;
    text-decoration: none;
    text-indent: -1px;
-   padding: 10px;
 }
 
 a.menu:visited {
-    font:rgb(219, 241, 90);
+    color:#c9c69a;
     text-decoration: none;
     text-indent: -1px;
 }
 
 a.menu:hover {
-    font:rgb(219, 241, 90);
+    color:rgb(219, 241, 90);
     text-decoration: none;
     text-indent: -1px;
 }
 
 
 a.menu:active {
-  font:rgb(219, 241, 90);
+  color:#c9c69a;
   text-decoration: none;
   text-indent: -1px;
 }
@@ -103,11 +119,10 @@ a {
      transition: ease-in-out 0.3ms;
   }
  
-
-
 #navigation {
     position: absolute;
-    left:200px;
+    top: 20px;
+    left: 600px;
     width: 100%;
     height: 80px;
  }
@@ -119,19 +134,16 @@ a {
  }
 
 
-
 /********  BEGIN THE FRONT ( WELCOME ) PAGE PORTION OF THE CODE 
  ---- Most of these divs are self explanitory , please pay no mind ----
                                                                    ********/
 
-
-
                                                                    
                                                                    
 #littlenav {
- position: absolute;
+   position: absolute;
    width: 100%;
- height: 80px;
+   height: 80px;
  } 
  #companytitle {
     position: absolute;
@@ -142,7 +154,6 @@ a {
     width: 440px;
     font-size: 50px;
     text-shadow: 2px 1px 2px rgb(25, 94, 64);
-
 }
 
 #companysubheader {
@@ -185,20 +196,19 @@ a {
     width: 700px;
     height:250px;
     transform: rotate(-30deg);
-    
 }
 
-#picircle {
+.picircle {
     position: absolute;
-    top: 100px;
-    left: 450px;
+    top: 70px;
+    left: 470px;
     z-index: -1;
-    background-color: rgb(30, 136, 136);
-    width: 220px;
-    height:150px;
+    background-image:url("images/bearpaw.png");
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    width: 150px;
+    height: 150px;
     opacity: 70%;
-    border-radius: 50%;
-    
 }
 
 /********  END THE FRONT PAGE PORTION OF THE CODE  ********/
@@ -206,8 +216,6 @@ a {
 /********  BEGIN THE ABOUT & SALES PORTION OF THE CODE 
  ---- Most of these divs are self explanitory , please pay no mind ----
                                                                    ********/
-
-
 
 
 
@@ -220,7 +228,7 @@ a {
     width: 1500px;
     height: 650px;
     opacity: 10%;
-    border-radius: 2%;
+    border-radius: 2px;
     border: #3d8186 2px solid;
     outline: rgb(51,172,132);
 }
@@ -237,15 +245,68 @@ a {
     padding: 5px 5px 5px 5px;
 }
 
+
+fieldset {
+    font-size: 14px;
+    font-variant: small-caps;
+    border-radius: 20px;
+    border: #8ed9dd3d 5px solid;
+ }
+ 
+.button {
+    padding: 5px 5px;
+    margin-top: 10px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-variant: small-caps;
+    border-radius: 5px;
+    border: #8ed9dd88 1px solid;
+}
+
+legend {
+    background-color: #dbd8a338;
+    padding: 5px;
+    font-size: 17px;
+    font-variant: small-caps;
+    border-radius: 10px;
+    border: #8ed9dd88 3px solid;
+ }
+
+label {
+    line-height: 30px;
+    float: left;
+
+ }
+
+input {
+    margin-top: -2px;
+    float: right;
+    font-size: 14px;
+    font-variant: small-caps;
+    border: #8ed9dd5b 5px solid;
+ }
+
 #salestable {
    position:absolute;
-   top: 595px;
-   left: 530px;
+   top: 510px;
+   left: 600px;
    background: rgb(245, 245, 245);
-   width:995px;
-   height:170px;
+   width:900px;
+   height:230px;
    padding:2px;
    border: #51be7577 6px solid;
    border-radius: 30px;
-
 }
+
+#storeform {
+    position:absolute;
+    top: 510px;
+    left: 45px;
+    background: rgb(245, 245, 245);
+    width:440px;
+    height:230px;
+    padding: 2px;
+    border: #51be7577 6px solid;
+    border-radius: 30px;
+ }
