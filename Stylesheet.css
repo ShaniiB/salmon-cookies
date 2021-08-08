@@ -37,31 +37,6 @@ li {
   padding: 0px 40px 0px 40px;   
 }
 
-table {
- position: absolute;
- top: -30px;
- font-size: 13px;
- padding: 5px;
- border-radius: 5%;
-}
-
-tr {
- padding:2px;
-}
-
-th {
- padding: 8px -0px 4px -6px;
- font-size: 14px;  
-}
-
-td {
- padding :4px;
- margin-left: 40px;
- border: rgba(85, 173, 114, 0.377) 2px solid ;
- border-radius: 7%;
-
-}
-
  a.menu:link {
    background-color: #439193 ;
    color:#c9c69a;
@@ -218,7 +193,6 @@ a {
                                                                    ********/
 
 
-
 #content {
     position: absolute;
     top: 90px;
@@ -245,6 +219,66 @@ a {
     padding: 5px 5px 5px 5px;
 }
 
+#aboutus {
+    position:absolute;
+    top: 150px;
+    left: 600px;
+    z-index: -2;
+    background: rgb(245, 245, 245);
+    width:900px;
+    height:300px;
+    padding:2px;
+    border: #51be7577 6px solid;
+    border-radius: 30px;
+ }
+
+#storeform {
+    position:absolute;
+    top: 510px;
+    left: 45px;
+    background: rgb(245, 245, 245);
+    width:425px;
+    height:210px;
+    border: #51be7577 6px solid;
+    border-radius: 30px;
+}
+
+main {
+    position: absolute;
+    top: 505px;
+    left: 500px;
+    background: rgb(245, 245, 245);
+    width:860px;
+    height:auto;
+    overflow: hidden;
+    font-size: 14px;
+    font-variant: small-caps;
+    border: #51be7577 6px solid;
+    border-radius: 30px;
+    }
+    
+main table,th,td {
+    font-family: 'Oswald', sans-serif;
+    border-collapse: collapse;
+}
+    
+main th,td {
+    padding: 10px;
+    border-bottom: 1px solid rgb(147, 199, 173);
+}
+    
+main th {
+    background-color: #51be7577;
+    color: #FFF;
+    font-size: 14px;
+    font-variant: small-caps;
+}
+    
+form {
+    width: 425px;
+    margin: 2px 0px;
+    font-family: 'Oswald', sans-serif;
+}
 
 fieldset {
     font-size: 14px;
@@ -253,20 +287,22 @@ fieldset {
     border: #8ed9dd3d 5px solid;
  }
  
-.button {
+button {
     padding: 5px 5px;
-    margin-top: 10px;
+    margin-top: 110px;
+    margin-left: 26px;
     display: inline-block;
     color: rgb(0, 0, 0);
-    text-align: center;
+    text-align:left;
     font-variant: small-caps;
     border-radius: 5px;
     border: #8ed9dd88 1px solid;
 }
 
 legend {
-    background-color: #dbd8a338;
+    background-color: #51be7577;
     padding: 5px;
+    color: #fff;
     font-size: 17px;
     font-variant: small-caps;
     border-radius: 10px;
@@ -287,26 +323,11 @@ input {
     border: #8ed9dd5b 5px solid;
  }
 
-#salestable {
-   position:absolute;
-   top: 510px;
-   left: 600px;
-   background: rgb(245, 245, 245);
-   width:900px;
-   height:230px;
-   padding:2px;
-   border: #51be7577 6px solid;
-   border-radius: 30px;
-}
+ 
 
-#storeform {
-    position:absolute;
-    top: 510px;
-    left: 45px;
-    background: rgb(245, 245, 245);
-    width:440px;
-    height:230px;
-    padding: 2px;
-    border: #51be7577 6px solid;
-    border-radius: 30px;
- }
+
+ /********  END THE ABOUT & SALES PORTION OF THE CODE  ********/
+
+/********  BEGIN THE SHOP & MISC. PORTION OF THE CODE 
+ ---- Most of these divs are self explanitory , please pay no mind ----
+                                                                   ********/
